@@ -1,0 +1,23 @@
+html {
+  --beige: #FBE9C5;
+  --red: #D74B25;
+  --brown: #3C2F24;
+
+  color: var(--brown);
+  font-family: 'Anton', sans-serif;
+  background-color: var(--beige);
+}
+
+#root  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html, body, #root {
+  touch-action: manipulation;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
